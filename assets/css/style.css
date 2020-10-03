@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #60a3bc;
+}
+
+section.container{
+	width: 100%;
+	max-width: 400px;
+	height: 500px;
+	text-align: center;
+	margin: auto;
+	top: 50%;
+	transform: translateY(20%);
+	background-color: #f39c12;
+
+}
+
+input{
+	width: 100%;
+	max-width: 300px;
+	height: 40px;	
+}
+
+
+div.formulario{
+	position: absolute;
+	margin-top: 245px;
+	margin-left: 100px;
+	border-radius: 4px;
+}
+
+input{
+	border-radius: 5px;
+	border: none;
+	font-size: 1em;
+}
+
+
+
+div.logo img{
+	margin-top: -100px;
+	margin-left: -120px;
+	position: absolute;
+	width: 100%;
+	max-width: 240px;
+	border: 15px solid #60a3bc;
+
+	border-radius: 150px;
+
+}
+
+section div.icone1{
+	position: absolute;
+	margin: 20px;
+}
+
+section div.icone1{
+	position: absolute;
+	margin-left: 60px;
+	top: 50%;
+	transform: translateY(-65%);
+}
+
+section div.icone1 div.fundo1{
+	width: 100%;
+	min-width: 42px;
+	height: 40px;
+	background-color: #ca3737;
+	border-radius: 13px 0px 0px 13px;
+}
+
+i.fa-user{
+	margin-top:14px;
+}
+
+
+section div.icone2{
+	position: absolute;
+	margin-left: 60px;
+	top: 50%;
+	transform: translateY(130%);
+}
+
+section div.icone2 div.fundo{
+	width: 100%;
+	min-width: 42px;
+	height: 40px;
+	background-color: #ca3737;
+	border-radius: 13px 0px 0px 13px;
+}
+
+i.fa-key{
+	margin-top: 14px;	
+	
+}
+
+
+button{
+	margin-left: -35px;
+	width: 100%;
+	max-width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ca3737;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;	
+	cursor: pointer;
+
+}
+
+div.formulario input::placeholder{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+@media(max-width: 470px){
+
+	section div.icone1{
+	position: absolute;
+	margin-left: 30px;
+	top: 50%;
+	transform: translateY(-65%);
+	}
+
+	section div.icone2{
+		margin-left: 30px;
+	}
+
+	div.formulario{
+	position: absolute;
+	margin-top: 245px;
+	margin-left: 70px;
+	border-radius: 4px;
+	}
+
+	input{
+		width: 100%;
+		max-width: 290px;
+	}
+
+
+}
